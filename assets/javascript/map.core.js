@@ -17,7 +17,7 @@ function initMap() {
 				lng: position.coords.longitude
 			};
 			map.setCenter(pos);
-			map.setZoom(10);
+			map.setZoom(14);
 			var marker = new google.maps.Marker({
 				position: pos,
 				map: map
