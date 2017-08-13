@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#map {
+    height: 100%;
+}
+
+/* Style thy Headers */
+h1, h3{
+    font-family: 'Advent Pro', sans-serif;
+    color: rgba(0,0,255,1);
+    Position: absolute;
+    z-index: 9999;
+}
+@media screen and (min-width: 481px) {
+    h1 {
+        font-size: 3em;
+        top : 1em;
+        left : 2em;
+    }
+    h3 {
+        bottom : 1em;
+        left : 3em;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+        top : 0em;
+        left : 1em;
+    }
+    h3 {
+        display: none;
+    }
+}
+

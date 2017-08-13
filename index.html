@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>FlyDronesLegally.eu</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Jaan Janesmae">
+		<meta name="description" content="FlyDronesLegally.eu ... A simple website displaying restricted-fly and no-fly zones for UAVs.">
+		<meta name="keywords" content="drone, drones, map, maps, tallinn, estonia, nfz, noflyzone, no fly zone, no-fly zone, restricted airspace, drone flight, drone zone">
+		<link href="assets/stylesheet/default.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>FlyDronesLegally.eu</h1>
+		<h3>version: v0.1-dev</h3>
+		<div id="map"></div>
+		<script src="assets/javascript/zones.data.js"></script>
+		<script src="assets/javascript/map.data.js"></script>
+		<script src="assets/javascript/map.core.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-tq3KtFdk6vieQGvcLQAbgmKd7m32fS0&callback=initMap"></script>
+		<script type="text/javascript">
+		var _gauges = _gauges || [];
+		(function() {
+			var t   = document.createElement('script');
+			t.type  = 'text/javascript';
+			t.async = true;
+			t.id    = 'gauges-tracker';
+			t.setAttribute('data-site-id', '5969fd8bbad3a77761065808');
+			t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+			t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(t, s);
+		})();
+		</script>
+	</body>
+</html>
